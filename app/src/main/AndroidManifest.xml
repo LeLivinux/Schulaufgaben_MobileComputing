@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Schulaufgaben">
         <activity
+            android:name=".DBActivity"
+            android:exported="false" />
+        <activity
             android:name=".RetrofitActivity"
             android:exported="false" />
         <activity

@@ -39,4 +39,10 @@ public class MainActivity extends AppCompatActivity {
         Intent goToDetail = new Intent(getApplicationContext(),RetrofitActivity.class);
         startActivity(goToDetail);
     }
+
+    public void navigateToDB(View view) {
+        Log.d("MainActivity", "navigateToDB: ");
+        Intent goToDetail = new Intent(getApplicationContext(),DBActivity.class);
+        startActivity(goToDetail);
+    }
 }
